@@ -1,0 +1,115 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.game {
+  overflow: hidden;
+  position: relative;
+}
+
+button {
+  position: fixed;
+  margin-top: 1px;
+}
+
+.nftTotalScore {
+  position: absolute;
+  font-size: 3vmin;
+  right: 30vmin;
+  top: 4vmin;
+}
+
+.gweiTotalScore {
+  position: absolute;
+  font-size: 3vmin;
+  right: 30vmin;
+  top: 1vmin;
+}
+
+.score {
+  position: absolute;
+  font-size: 3vmin;
+  right: 1vmin;
+  top: 1vmin;
+}
+
+.button1 {
+  position: absolute;
+  font-size: 3vmin;
+  left: 1vmin;
+  top: 1vmin;
+}
+
+.button2 {
+  position: absolute;
+  font-size: 3vmin;
+  left: 1vmin;
+  top: 5vmin;
+}
+
+.button3 {
+  position: absolute;
+  font-size: 3vmin;
+  left: 1vmin;
+  top: 10vmin;
+}
+
+
+.score1 {
+  position: absolute;
+  font-size: 3vmin;
+  right: 1vmin;
+  top: 4vmin;
+}
+
+
+.start-screen {
+  position: absolute;
+  font-size: 5vmin;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hide {
+  display: none;
+}
+
+.ground {
+  --left: 0;
+  position: absolute;
+  width: 300%;
+  bottom: 0;
+  left: calc(var(--left) * 1%)
+}
+
+.player {
+  --bottom: 0;
+  position: absolute;
+  left: 1%;
+  height: 30%;
+  bottom: calc(var(--bottom) * 1%);
+}
+
+.obstacle {
+  position: absolute;
+  left: calc(var(--left) * 1%);
+  height: 30%;
+  bottom: 0;
+}
+
+.nft {
+  position: absolute;
+  left: calc(var(--left) * 1%);
+  height: 30%;
+  bottom: 100px;
+}
