@@ -7,7 +7,7 @@ Build a play to earn blockchain runner game that rewards tokens and NFTs
 - HTML, Css, Javascript For the website
 - [Infura](https://infura.io/) Account on Infura as a node provider
 - [NodeJS](https://nodejs.org/en/) To install Dependencies
-- [Harhhat](https://hardhat.org/) Ethereum development environment
+- [Hardhat](https://hardhat.org/) Ethereum development environment
 
 
 ### 1. Clone/Download the Repository
