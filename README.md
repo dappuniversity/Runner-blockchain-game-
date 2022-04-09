@@ -34,3 +34,4 @@ $ $ npx hardhat run scripts/deployRunToken.js --network mumbai
 
 ### 5. Provide the smart contract addresses in blockchain.js file
 
+Images in the game are taken from https://www.flaticon.com/
